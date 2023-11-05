@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 98px;
+    background-color: #3B3937;
+}
+
+.container{
+    width: 1530px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.container img{
+    width: 90px;
+    height: 43.013px;
+    margin-top: 19px;
+}
+.menu{
+    display: flex;
+    margin-top: 38px;
+}
+header li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 36px;
+}
+.e-mail a, .nomer a{
+    color: #a78e71;
+    line-height: 120%;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.e-mail a{
+    padding-left: 75px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nomer a{
+    padding-left: 100px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.banner{
+    position: relative;
+}
+
+.banner_text{
+    position: absolute;
+    top: 41px;
+    left: 583px;
+    width: 754px;
+    height: 754px;
+    border-radius: 754px;
+    background: rgba(85, 73, 62, 0.51);
+    text-align: center;
+    
+}
+
+.name{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    color: #fff;
+    width: 433px;
+    margin: 167px auto 0;
+}
+
+.name2{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.64px;
+    color: #b96810;
+    margin-top: 17px;
+}
+.name3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    color: #fff;
+    width: 584.514px;
+    margin: 35px auto 0;
+}
+
+.banner_text input{
+    width: 247.675px;
+    height: 82.558px;
+    background-color: #b96810;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; 
+    letter-spacing: 1.2px;
+    border: none;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.banner_text input:active{
+    background-color: #c7791f;
+}
+
+.container h2{
+    margin-top: 70px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    letter-spacing: -0.32px;
+}
+
+.product{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.product div{
+    width: 230px;
+    background-color: black;
+}
